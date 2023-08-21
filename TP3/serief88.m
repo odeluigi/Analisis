@@ -2,7 +2,7 @@ function [s1] = serief(y,Ts,t)
 close all
 Nter=input('Nter=nro de términos')
 nter=1:Nter;
-N=length(y);%cantidad de elementos que tiene la señal para analizar
+N=length(y);%cantidad de elementos que tiene la señal para analizar2
 n=0:1:N-1; %secuencia de tiempo 
 figure(1)
 plot(n*Ts,y,'.') %grafica la señal a representar
