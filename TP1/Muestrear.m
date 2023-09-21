@@ -19,3 +19,5 @@ td=n*Ts;%valores de tiempo discreto
 td2=td(1:(end-1))%valores de tiempo discreto
 %td=0:1/fs:0.05
 plot(t,y,'b',t2,yc,'or')
+y=yc
+t=t2
