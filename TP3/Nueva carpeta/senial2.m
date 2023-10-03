@@ -20,4 +20,4 @@ y6=(A6*3)*cos(2*pi*(22)*t);
 y7=(A7*3)*cos(2*pi*(16)*t);
 y8=(A8*3)*cos(2*pi*(10)*t);
 y=y1+y2+y3+y4+y5+y6+y7+y8;
-plot(t,y)
+plot(t,y,'r')

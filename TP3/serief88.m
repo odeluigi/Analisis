@@ -73,5 +73,5 @@ figure(2)
 subplot(2,1,2)
 plot(n*Ts,(s1),'k')
 plot(t,y,'b')
-xlim([0 0.6])
+%xlim([0 0.6])
 hold off 
