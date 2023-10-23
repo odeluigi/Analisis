@@ -1,8 +1,9 @@
 clear all
 close all
-fs = 100;
+fs = 360;
 t = 0:1/fs:1-1/fs;
-x = cos(2*pi*2*t);
+%x = cos(2*pi*2*t);
+x=load('ecg1')
 y = fft(x);
 z = fftshift(y);
 ly = length(y);
@@ -14,9 +15,9 @@ grid
 tol = 1e-6;
 z(abs(z) < tol) = 0;
 
-theta = angle(z);
+%theta = angle(z);
 
-stem(f,theta/pi)
-xlabel 'Frequency (Hz)'
-ylabel 'Phase / \pi'
-grid
+%stem(f,theta/pi)
+%xlabel 'Frequency (Hz)'
+%ylabel 'Phase / \pi'
+%grid

@@ -6,7 +6,7 @@ fs=input('fs=')%frecuencia de muestreo
 Ts=1/fs;
 n = linspace(0,N-5,N);%secuencia de tiempo 
 w=hamming(N);%ventana de hamming
-y1=cos(2*pi*f*n*Ts);
+y1=cos(2*pi*f*n*Ts)%+0.5*cos(2*pi*2*f*n*Ts)+0.25*cos(2*pi*4*f*n*Ts);
 y=w.*y1';%señal modificada por la ventana de hamming
 
 %grafica señales y ventana de hamming
