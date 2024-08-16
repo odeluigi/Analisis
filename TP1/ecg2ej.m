@@ -1,7 +1,7 @@
 clear all
 close all
-Fs=250;
-y=load('ecg2');
-t=0:1/250:(length(y)-1)*(1/Fs);
+Fs=360;
+y=load('ecg1');
+t=0:1/360:(length(y)-1)*(1/Fs);
 figure
 plot(t,y)
