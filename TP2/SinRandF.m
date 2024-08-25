@@ -1,15 +1,15 @@
-load C:\Users\simaf\Documents\MATLAB\Analisis\TP4\FrecuenciaAleatoria\40hz
-load C:\Users\simaf\Documents\MATLAB\Analisis\TP4\FrecuenciaAleatoria\83hz
+load C:\Users\simaf\Documents\MATLAB\Analisis\TP2\FrecuenciaAleatoria\40hz
+load C:\Users\simaf\Documents\MATLAB\Analisis\TP2\FrecuenciaAleatoria\83hz
 %load C:\Users\simaf\Documents\MATLAB\Analisis\TP4\Aleatoria\110hz
-load C:\Users\simaf\Documents\MATLAB\Analisis\TP4\FrecuenciaAleatoria\145hz
-load C:\Users\simaf\Documents\MATLAB\Analisis\TP4\FrecuenciaAleatoria\218hz
-load C:\Users\simaf\Documents\MATLAB\Analisis\TP4\FrecuenciaAleatoria\284hz
-load C:\Users\simaf\Documents\MATLAB\Analisis\TP4\FrecuenciaAleatoria\309hz
+load C:\Users\simaf\Documents\MATLAB\Analisis\TP2\FrecuenciaAleatoria\145hz
+load C:\Users\simaf\Documents\MATLAB\Analisis\TP2\FrecuenciaAleatoria\218hz
+load C:\Users\simaf\Documents\MATLAB\Analisis\TP2\FrecuenciaAleatoria\284hz
+load C:\Users\simaf\Documents\MATLAB\Analisis\TP2\FrecuenciaAleatoria\309hz
 %load C:\Users\simaf\Documents\MATLAB\Analisis\TP4\Aleatoria\347hz
-load C:\Users\simaf\Documents\MATLAB\Analisis\TP4\FrecuenciaAleatoria\421hz
-load C:\Users\simaf\Documents\MATLAB\Analisis\TP4\FrecuenciaAleatoria\562hz
-load C:\Users\simaf\Documents\MATLAB\Analisis\TP4\FrecuenciaAleatoria\700hz
-load C:\Users\simaf\Documents\MATLAB\Analisis\TP4\FrecuenciaAleatoria\778hz
+load C:\Users\simaf\Documents\MATLAB\Analisis\TP2\FrecuenciaAleatoria\421hz
+load C:\Users\simaf\Documents\MATLAB\Analisis\TP2\FrecuenciaAleatoria\562hz
+load C:\Users\simaf\Documents\MATLAB\Analisis\TP2\FrecuenciaAleatoria\700hz
+load C:\Users\simaf\Documents\MATLAB\Analisis\TP2\FrecuenciaAleatoria\778hz
 A=[X40hz(:,2),X83hz(:,2),X145hz(:,2),X218hz(:,2),X284hz(:,2),X309hz(:,2),X421hz(:,2),X562hz(:,2),X700hz(:,2),X778hz(:,2)]
 M=mean(A')
 s=std(A')

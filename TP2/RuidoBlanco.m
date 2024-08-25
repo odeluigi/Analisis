@@ -19,8 +19,8 @@ load C:\Users\simaf\Documents\MATLAB\Analisis\TP2\RuidoBlanco\r18
 load C:\Users\simaf\Documents\MATLAB\Analisis\TP2\RuidoBlanco\r19
 load C:\Users\simaf\Documents\MATLAB\Analisis\TP2\RuidoBlanco\r20
 
-t=0:1/44100:(length(A)-1)*(1/44100);
 A=[r1(:,2),r2(:,2),r3(:,2),r4(:,2),r5(:,2),r6(:,2),r7(:,2),r8(:,2),r9(:,2),r10(:,2),r11(:,2),r12(:,2),r13(:,2),r14(:,2),r15(:,2),r16(:,2),r17(:,2),r18(:,2),r19(:,2),r20(:,2)]
+t=0:1/44100:(length(A)-1)*(1/44100);
 M=mean(A')
 s=std(A')
 M1=M+s
