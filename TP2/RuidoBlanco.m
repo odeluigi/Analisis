@@ -30,7 +30,7 @@ A2=A'
 col=2205
 rows=20
 for j=1:col,
-C(j)=sum(A2(:,1).*A2(:,j))/rows;
+C(j)=sum(A2(:,100).*A2(:,j))/rows;
 end
 C=C./max(C)
 figure

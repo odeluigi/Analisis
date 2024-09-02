@@ -4,7 +4,7 @@ load C:\Users\simaf\Documents\MATLAB\Analisis\TP2\Def\seno3
 load C:\Users\simaf\Documents\MATLAB\Analisis\TP2\Def\seno4
 load C:\Users\simaf\Documents\MATLAB\Analisis\TP2\Def\seno5
 A=[seno1(:,2),seno2(:,2),seno3(:,2),seno4(:,2),seno5(:,2)]
-t=0:1/11025:(length(A)-1)*(1/11025);
+%t=0:1/11025:(length(A)-1)*(1/11025);
 M=mean(A')
 s=std(A')
 M1=M+s

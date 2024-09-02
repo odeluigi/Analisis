@@ -1,8 +1,8 @@
 clear all
 close all
 Fsenial=100;
-load('Seno100Hz');
-y=[Seno100Hz(:,2)];
+load('500h.txt');
+y=[X500h(:,2)];
 %maximo=max(y);
 %y=y/maximo;
 t=0:1/44100:(length(y)-1)*(1/44100);
@@ -19,4 +19,5 @@ td=n*Ts;%valores de tiempo discreto
 td2=td(1:(end-1))%valores de tiempo discreto
 %td=0:1/fs:0.05
 plot(t,y,'b',t2,yc,'or')
-
+y=yc
+t=t2
