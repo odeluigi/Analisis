@@ -1,6 +1,6 @@
 clear all
 close all
-A = 1;%coeficiente de amplitud
+A = 4;%coeficiente de amplitud
 f=input('frecuencia=')
 Ts=0.01;
 t = 0:Ts:1; %intervalo de tiempo
