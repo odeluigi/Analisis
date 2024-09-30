@@ -5,7 +5,8 @@ N=input('N=');%longitud de la muestra
 fs=input('fs=')%frecuencia de muestreo
 Ts=1/fs;%período de muestreo
 n=0:1:N-1; %secuencia de tiempo 
-y=cos(2*pi*f*n*Ts)%señal a representar
+%y=cos(2*pi*f*n*Ts)%señal a representar
+y=cos(2*pi*f*n*Ts)+0.5*cos(2*pi*2*f*n*Ts)+0.25*cos(2*pi*4*f*n*Ts)
 plot(n*Ts,y,'-o') %grafica la señal a representar
 C = zeros(size(y)); %prepara vector de coeficientes con ceros
   for k = 0 : N - 1  % para cada coeficiente
